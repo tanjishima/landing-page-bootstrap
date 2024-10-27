@@ -1,0 +1,286 @@
+ /* hero section */
+ @media(max-width:600px){
+    .hero-content h1{
+        font-size:38px;
+        line-height: 46px;
+    }
+    .hero-content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .hero-btn {
+        font-size:18px;
+    }
+}
+/* card section */
+@media(max-width:600px){
+    .card-body h2{
+        font-size:44px;
+    }
+    .card-body p {
+        font-size:18px;
+    }
+}
+/* .servic-container */
+@media(max-width:768px){
+    .servic-container{
+        padding: 0 20px;
+       
+    }
+}
+
+ /* swiper slider  */
+@media(max-width:1175px){
+    .swiper-button-prev-unic>button{
+        left: -4%;
+    }
+    .swiper-button-next-unic>button{
+        right: -4%;
+    }
+}
+@media (max-width: 1024px) {
+
+    .swiper{
+        height: 550px;
+    }
+    .swiper-slide {
+        height: 500px;
+    }
+    /* Hide the navigation buttons on smaller screens */
+    .swiper-button-prev-unic, 
+    .swiper-button-next-unic {
+        display: none; 
+    }
+}
+
+@media (max-width: 768px) {
+    .swiper {
+        height:350px;
+    } 
+    .swiper-slide {
+        height:300px;
+        width: 100%; /* Make each slide take up 100% of the container's width */
+    }
+    
+}
+/* case-studies  */
+
+
+@media (max-width: 480px) {
+    .case-studies-right h4 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .case-studies-right h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .content-down p {
+        font-size: 24px;
+    }
+
+    .content-up a {
+        font-size: 12px;
+    }
+
+    .case-studies-right {
+        padding: 20px;
+    }
+}
+ 
+ 
+/* Responsive Styles */
+ @media(max-width:1170px){
+    .case-studies-right h2 {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 31px ; 
+    }
+    .case-studies-right {
+        padding: 40px;
+    }
+} 
+@media (max-width: 900px) {
+    .case-studies-left {
+        padding: 20px 20px;
+    }
+    .cas {
+        display: flex;
+      flex-direction: column;
+    }
+   
+    .case-studies-right {
+      padding: 30px;
+    }
+  
+    .case-studies-right h2 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  
+    .content-down {
+      margin-top: 40px;
+    }
+  
+    .content-down p {
+      font-size: 28px;
+    }
+  
+    .content-down p:last-child {
+      font-size: 14px;
+    }
+  }
+  @media(max-width:500px){
+    .case-img img {
+        width: 300px;
+    }
+  }
+  /* process start */
+  @media(max-width:800px){
+    .pro-box p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .p-tittle h2{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .pro-box h3{
+        font-size: 22px;
+    }
+} 
+ /* testimonial start */
+ @media(max-width:912px) {
+    .box-container{
+        flex-direction: column;
+        gap: 0;
+    }
+    .testimonial-box {
+        max-width: 700px;
+        margin: auto;
+        background-color: var(--bgColor);
+        padding: 36px 32px;
+        margin-top: 36px;
+    }
+    .testimonial-container {
+        padding: 50px 0;
+    }
+    
+ }
+ @media(max-width:768px) {
+    .testimonial-box {
+         max-width: 600px; 
+       
+    }
+ }
+ 
+  @media(max-width:540px) {
+    .testimonial-box {
+         max-width:400px; 
+    }
+     .testimonial-box p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    } 
+    .testimonial-box h3 {
+        font-size:20px;
+    }
+ } 
+ @media(max-width:414px) {
+    .testimonial-box {
+         max-width:300px; 
+        padding: 20px;
+    }
+}
+  /* testimonial end */
+  /* accordian section */
+  @media(max-width:600px){
+    .accordian-header h2 { 
+        font-size: 24px;
+    }
+    .accordion-title h2 {
+        font-size: 16px;
+    }
+  }
+  /* calendy section */
+   @media(max-width:1000px){
+    
+  .left-side{
+    text-align: center;
+  }
+    .shedual-time{
+        align-items: center;
+        justify-content: center;
+    }  
+    .left-side p{
+        max-width: 100%;
+        font-size: 16px;
+    }  
+    .left-side h2{
+        font-size:28px ;
+    }
+  
+  @media (max-width:768px) {
+    .calendly-inline-widget{
+        margin-top: 60px;
+    }
+  }
+
+}
+/* work section */
+@media (max-width:500px){
+    .work-tittle h2 {
+        font-size: 28px;
+    }
+}
+/* servic section */
+@media (max-width:500px){
+    .box h3 {
+        font-size:22px;
+    }
+    .box p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .servic-left-content h2 {
+        font-size: 28px;
+        line-height:38px;
+    }
+    .servic-left-content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+/* Final CTA section */
+@media(max-width:768px){
+    .Final-CTA h3 {
+        font-size:32px;
+        margin-bottom: 20px;
+    }
+    .Final-CTA h2 {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+    .Final-CTA p{
+        font-size: 16px;
+    }
+}
+/* footer section */
+@media(max-width:1170px){
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        gap:36px
+    }
+    
+}
+@media(max-width:500px){
+    .footer-container p{
+        width: 300px;
+       margin: auto;
+       text-align: center;
+    }
+}
